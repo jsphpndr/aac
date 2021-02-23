@@ -1,0 +1,24 @@
+<section>
+  <div class="[ anchor ]" id="our-company"></div>
+  <div class="[ wrapper over-width ]">
+    <div class="[ profile ] [ x--wide grid x2--lg ]">
+      <div>
+        <h2>Company Profile</h2>
+        {{ .Content }}
+        </ul><a class="[ btn btn--white btn--solid--lg ]" href="/#contact-us">Contact Us </a>
+      </div>
+      <div class="[ slider ]">
+        <div class="[ slider__wrapper ]">
+          <ul class="slider__track no-list-style">
+            {{ range .profile.slides }}
+            <li class="[ slide ]">
+              <figure class="[ slide__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abacoaggregate.net{{ .slide }}" data-sizes="auto" alt="{{ .alt }}">
+              </figure>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

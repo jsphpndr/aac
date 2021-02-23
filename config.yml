@@ -1,0 +1,6 @@
+baseURL: "http://abacoaggregate.net/"
+languageCode: "en"
+title: "Abaco Aggregate & Cement Ltd."
+
+upload_dir: static/uploads
+public_path: "/uploads"
