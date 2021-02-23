@@ -1,33 +1,33 @@
 ---
 title: Abaco Aggregate & Cement Ltd. | Abaco Bahamas
 
-components:
-  - hero:
-      heading: Build Your World
-      tagline: We make high quality ready mix concrete accessible and affordable for clients across all islands of The Bahamas.
 
-  - products:
-      heading: Products & Services
-      summary: We provide ready mix concrete on site for all your building and construction needs. Using the highest quality materials, professional and highly qualified staff provide efficient and timely service.
-      products: 
-        - product: Sand
-        - product: Rock
-        - product: Fill
-        - product: Cement
-        - product: Asphalt Paving
+hero:
+  heading: Build Your World
+  tagline: We make high quality ready mix concrete accessible and affordable for clients across all islands of The Bahamas.
 
-  - profile:
+products:
+    heading: Products & Services
+    summary: We provide ready mix concrete on site for all your building and construction needs. Using the highest quality materials, professional and highly qualified staff provide efficient and timely service.
+    products: 
+      - product: Sand
+      - product: Rock
+      - product: Fill
+      - product: Cement
+      - product: Asphalt Paving
 
-      slides:
+profile:
 
-        - slide: /uploads/abaco-aggregate-cement.jpg
-          alt: Something or other
+    slides:
 
-        - slide: /uploads/concrete-mixer-operator.jpg
-          alt: Something or other
+      - slide: /uploads/abaco-aggregate-cement.jpg
+        alt: Something or other
 
-        - slide: /uploads/mixing-concrete.jpg
-          alt: Something or other
+      - slide: /uploads/concrete-mixer-operator.jpg
+        alt: Something or other
+
+      - slide: /uploads/mixing-concrete.jpg
+        alt: Something or other
 
 
 
