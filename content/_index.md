@@ -1,7 +1,7 @@
 ---
 title: Abaco Aggregate & Cement Ltd. | Abaco Bahamas
 hero:
-  heading: Build Your World
+  heading: Hello
   tagline: We make high quality ready mix concrete accessible and affordable for clients
     across all islands of The Bahamas.
 products:
