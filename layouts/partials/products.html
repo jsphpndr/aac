@@ -2,11 +2,11 @@
   <div class="[ anchor ]" id="products"></div>
   <div class="[ products ]">
     <div class="[ x--narrow--xm ]">
-      <h2>{{ .products.heading }}</h2>
-      <p>{{ .products.summary }}</p>
+      <h2>{{ $.Param "products.heading" }}</h2>
+      <p>{{ $.Param "products.summary" }}</p>
     </div>
     <ul class="[ x--wide ]">
-      {{ range .products.products }}
+      {{ range .Params.products.products }}
       <li>{{ .product }}</li>
       {{ end }}
     </ul>

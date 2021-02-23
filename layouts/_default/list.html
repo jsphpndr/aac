@@ -56,44 +56,10 @@
     
     <main class="[ main ][ mt--7 ]" id="main">
     {{ partial "hero" . }}
-    <section class="wrapper">
-      <div class="[ anchor ]" id="contact-us"></div>
-      <h2 class="[ x--wide ]">Contact Us</h2>
-      <div class="[ x--wide grid x2--md ]">
-        <div>
-          <p>Need to talk to us? Fill out the contact form and we'll get back to you as soon as possible.</p>
-          <p>Or you can try one of these:</p>
-          <address>Abaco Aggregate and Cement Ltd.<br>Airport Road<br>Marsh Harbour, Abaco<br>Bahamas</address><br>
-          <template obscure data-p1="+1" data-p2="242" data-p3="813" data-p4="7981"><a href="tel:%1%2%3%4">(%2) %3-%4</a></template><br><br>
-          <template obscure data-p1="info" data-p2="abacoaggregate.net"><a href="mailto:%1@%2">%1@%2</a></template>
-        </div>
-        <div>
-          <form class="[ form--contact ]" id="form" name="contact" method="POST" data-netlify="true" netlify-honeypot="email" validate>
-            <div class="[ form__field ]">
-              <label class="[ form__label ]" for="name">Name <span class="red">*</span></label>
-              <input class="[ form__input ]" id="name" type="text" placeholder="Your Name" autocomplete="off" required>
-            </div>
-            <div class="[ form__field ]">
-              <label class="[ form__label ]" for="mailer">Email <span class="red">*</span></label>
-              <input class="[ form__input ]" id="mailer" type="email" name="mailer" placeholder="your@email.com" autocomplete="off" required>
-            </div>
-            <div class="[ form__field ]">
-              <label class="[ form__label ]" for="message">Message <span class="red">*</span></label>
-              <textarea class="form__message" id="message" placeholder="Say hello..." autocomplete="off" required></textarea>
-            </div>
-            <div class="hidden" aria-hidden="true">
-              <label for="email">This field is not for humans.</label>
-              <input id="email" type="email" name="email" autocomplete="off">
-            </div>
-            <input id="lead-source" type="hidden" value="Abaco Aggregate Website">
-            <input id="lead-url" type="hidden" value="https://abacoaggregates.com">
-            <div class="[ form__submit ]">
-              <input class="[ btn btn--black btn--solid--lg ]" id="submit" type="submit" name="submit" value="Send">
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
+    {{ partial "products" . }}
+    {{ partial "profile" . }}
+    {{ partial "highlight" . }}
+    {{ partial "contact" . }}
     </main>
     <footer class="footer">
       <div class="footer__copy content content--wide flex--center--middle"><small>&copy; 2020 Abaco Aggregates And Cement Ltd. | All rights reserved.</small></div>

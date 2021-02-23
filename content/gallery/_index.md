@@ -1,4 +1,4 @@
 ---
-title: Gallery | Abaco Aggregate & Cement Ltd.
+title: Gallery
 
 ---
