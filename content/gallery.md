@@ -1,6 +1,4 @@
 ---
 title: Gallery
 
-name: slider
-
 ---
