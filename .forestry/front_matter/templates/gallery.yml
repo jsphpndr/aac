@@ -1,4 +1,9 @@
 ---
 label: Gallery
 hide_body: true
-fields: []
+fields:
+- name: slider
+  type: image_gallery
+  config: {}
+  label: Slider
+  description: Choose an image for this field.
