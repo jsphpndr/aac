@@ -37,8 +37,8 @@ Abaco Aggregate and Cement Ltd.’s Mission is to provide high quality and relia
 
 ### Core Values
 
-*   Efficiency
-*   Safety
-*   Quality
-*   Integrity
-*   Reliability
+* Efficiency
+* Safety
+* Quality
+* Integrity
+* Reliability
