@@ -2,15 +2,6 @@
 label: Gallery
 hide_body: true
 fields:
-- name: slider
-  type: image_gallery
-  config: {}
-  label: Slider
-  description: Choose an image for this field.
-
-label: Gallery
-hide_body: true
-fields:
 - name: gallery
   type: image_gallery
   config: {}
