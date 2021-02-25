@@ -5,8 +5,12 @@ title: Gallery
 description: A description for now.
 
 gallery:
-- "/uploads/concrete-mixer-operator.jpg"
-- "/uploads/mixing-concrete.jpg"
+- alt: A photo
+  caption: A caption for the photo.
+  image: "/uploads/concrete-mixer-operator.jpg"
+- alt: A photo
+  caption: A caption for the photo.
+  image: "/uploads/mixing-concrete.jpg"
 draft: true
 
 ---
