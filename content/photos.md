@@ -12,6 +12,5 @@ products:
   heading: ''
   summary: ''
   products: []
-draft: true
 
 ---
