@@ -7,3 +7,5 @@ fields:
   config: {}
   label: Gallery
   description: Choose an image for this field.
+pages:
+- content/galleries.md
