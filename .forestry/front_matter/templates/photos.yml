@@ -1,6 +1,7 @@
 ---
-label: Photos
+label: Homepage
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
@@ -42,5 +43,3 @@ fields:
   - type: text
     name: alt
     label: alt
-pages:
-- content/home-alternate.md
