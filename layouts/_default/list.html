@@ -1,7 +1,17 @@
 {{ define "main" }}
+    {{ if .IsHome }}
 
-  <h1 class="[ gallery__heading ]">{{ .Title }}</h1>
+        {{ partial "hero" . }}
+        {{ partial "products" . }}
+        {{ partial "profile" . }}
+        {{ partial "contact" . }}
+
+    {{ else }}
+
+        <h1 class="[ gallery__heading ]">{{ .Title }}</h1>
+        
+        {{ partial "gallery" . }}
   
-  {{ partial "gallery" . }}
+    {{ end }}
 
 {{ end }}

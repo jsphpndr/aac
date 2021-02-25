@@ -14,7 +14,7 @@
     {{ range .Params.gallery }}
     <div class="mySlides">
       <figure>
-        <img src="{{ relURL }}" alt="{{ .alt }}" galleryImage>
+        <img src="{{ . | relURL }}" alt="{{ .alt }}" galleryImage>
         {{ if .caption }}
         <figcaption class="caption">{{ .caption }}</figcaption>
         {{ end }}
