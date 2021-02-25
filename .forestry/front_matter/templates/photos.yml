@@ -42,3 +42,5 @@ fields:
     - type: text
       name: product
       label: product
+pages:
+ - content/index.md
