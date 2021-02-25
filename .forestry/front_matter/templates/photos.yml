@@ -15,16 +15,6 @@ fields:
   - type: textarea
     name: tagline
     label: tagline
-- type: field_group_list
-  name: slider
-  label: slider
-  fields:
-  - type: file
-    name: slide
-    label: slide
-  - type: text
-    name: alt
-    label: alt
 - type: field_group
   name: products
   label: products
@@ -42,5 +32,13 @@ fields:
     - type: text
       name: product
       label: product
-pages:
- - content/index.md
+- type: field_group_list
+  name: slider
+  label: slider
+  fields:
+  - type: file
+    name: slide
+    label: slide
+  - type: text
+    name: alt
+    label: alt
