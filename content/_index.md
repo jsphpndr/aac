@@ -17,12 +17,13 @@ products:
   - product: Asphalt Paving
 
 slider:
-  - slide: /uploads/abaco-aggregate-cement.jpg
-    alt: Something or other
-  - slide: /uploads/concrete-mixer-operator.jpg
-    alt: Something or other
-  - slide: /uploads/mixing-concrete.jpg
-    alt: Something or other
+  - alt: Something or other
+    slide: /uploads/abaco-aggregate-cement.jpg
+  - alt: Something or other
+    slide: /uploads/concrete-mixer-operator.jpg
+  - alt: Something or other
+    slide: /uploads/mixing-concrete.jpg
+
 
 ---
 
