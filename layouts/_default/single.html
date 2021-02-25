@@ -1,3 +1,7 @@
 {{ define "main" }}
-  <h1 class="[ gallery__heading ]">Gallery</h1>
+
+  <h1 class="[ gallery__heading ]">{{ .Title }}</h1>
+  
+  {{ partial "gallery" . }}
+
 {{ end }}
