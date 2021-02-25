@@ -7,3 +7,12 @@ fields:
   config: {}
   label: Slider
   description: Choose an image for this field.
+
+label: Gallery
+hide_body: true
+fields:
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+  description: Choose an image for this field.
