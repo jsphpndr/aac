@@ -1,11 +1,11 @@
 <ul class="[ grid x2--sm x4--md ]">
   {{ range .Params.gallery }}
   <li class="[ thumb ]" thumbnail>
-    <img class="hover-shadow lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abaco-aggregate.netlify.app/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
+    <img class="hover-shadow lazyload" src="data:/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .image }}" data-sizes="auto" alt="{{ .alt }}">
   </li>
   {{ end }}
   <!-- </li>
-  <li class="[  thumb thumb--yt ]" thumbnail><img class="hover-shadow lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abaco-aggregate.netlify.app/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
+  <li class="[  thumb thumb--yt ]" thumbnail><img class="hover-shadow lazyload" src="data:/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abaco-aggregate.netlify.app/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
   </li> -->
 </ul>
 <!-- The Modal/Lightbox-->
@@ -14,14 +14,14 @@
     {{ range .Params.gallery }}
     <div class="mySlides">
       <figure>
-        <img src="{{ . | relURL }}" alt="{{ .alt }}" galleryImage>
+        <img src="{{ .image }}" alt="{{ .alt }}" gallery>
         {{ if .caption }}
         <figcaption class="caption">{{ .caption }}</figcaption>
         {{ end }}
       </figure>
     </div>
     {{ end }}
-    <!-- <div class="[ mySlides mySlides--yt ]" galleryImage>
+    <!-- <div class="[ mySlides mySlides--yt ]" gallery>
       <div class="[ wrapper ]">
         <iframe class="[ youtube ]" src="https://www.youtube.com/embed/hszFNFHSNSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315"></iframe>
       </div>
