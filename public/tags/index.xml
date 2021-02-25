@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Abaco Aggregate &amp; Cement Ltd.</title>
-    <link>http://abacoaggregate.net/tags/</link>
+    <link>https://abacoaggregate.net/tags/</link>
     <description>Recent content in Tags on Abaco Aggregate &amp; Cement Ltd.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://abacoaggregate.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://abacoaggregate.net/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
