@@ -1,7 +1,7 @@
 <ul class="[ grid x2--sm x4--md ]">
   {{ range .Params.gallery }}
   <li class="[ thumb ]" thumbnail>
-    <img class="hover-shadow lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ . | relURL }}" data-sizes="auto" alt={{ .alt }}>
+    <img class="hover-shadow lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .image }}" data-sizes="auto" alt={{ .alt }}>
   </li>
   {{ end }}
   <!-- </li>
@@ -14,7 +14,7 @@
     {{ range .Params.gallery }}
     <div class="mySlides">
       <figure>
-        <img src="{{ . | relURL }}" alt="{{ .alt }}" galleryImage>
+        <img src="{{ .image }}" alt="{{ .alt }}" galleryImage>
         {{ if .caption }}
         <figcaption class="caption">{{ .caption }}</figcaption>
         {{ end }}
