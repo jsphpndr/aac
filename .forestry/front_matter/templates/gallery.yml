@@ -11,7 +11,7 @@ fields:
   name: description
   label: Description
 # Gallery
-- type: field_group_list
+- type: image_gallery
   name: gallery
   label: Gallery
   description: Choose an image for this field.
