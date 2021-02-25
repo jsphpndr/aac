@@ -12,7 +12,7 @@ fields:
   label: Description
 # Gallery
 - name: gallery
-  type: image_gallery
+  type: field_group_list
   label: Gallery
   description: Choose an image for this field.
   - fields:
