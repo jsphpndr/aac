@@ -1,17 +1,17 @@
 ---
-
-draft: true
 title: ''
 hero:
   heading: ''
   tagline: ''
+slider:
+- slide: "/uploads/mixing-concrete.jpg"
+  alt: ''
+- slide: "/uploads/mixing-concrete.jpg"
+  alt: hello-there
 products:
   heading: ''
-  products: []
   summary: ''
-slider:
-  - alt: hello-there
-    slide: /uploads/mixing-concrete.jpg
+  products: []
+draft: true
 
 ---
-
