@@ -24,7 +24,6 @@ slider:
   - alt: Something or other
     slide: /uploads/mixing-concrete.jpg
 
-
 ---
 
 Founded in 2020, Abaco Aggregate and Cement Ltd. set out to be a leading construction company in Abaco.
