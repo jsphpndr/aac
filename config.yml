@@ -8,3 +8,14 @@ public_path: /uploads
 disableKinds:
   - taxonomy
   - taxonomyTerm
+
+- type: field_group_list
+  name: slider
+  label: slider
+  fields:
+  - type: file
+    name: slide
+    label: slide
+  - type: text
+    name: alt
+    label: alt
