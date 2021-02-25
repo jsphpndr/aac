@@ -2,6 +2,7 @@
 title: Gallery
 description: A description for now.
 gallery:
+- "/uploads/abaco-aggregate-products.jpg"
 - alt: A photo
   caption: A caption for the photo.
   image: "/uploads/concrete-mixer-operator.jpg"
