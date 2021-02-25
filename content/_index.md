@@ -1,5 +1,7 @@
 ---
 title: Abaco Aggregate & Cement Ltd. | Abaco Bahamas
+description: Working on it.
+
 hero:
   heading: Build Your World
   tagline: We make high quality ready mix concrete accessible and affordable for clients

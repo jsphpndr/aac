@@ -1,0 +1,32 @@
+<ul class="[ grid x2--sm x4--md ]">
+  {{ range .Params.gallery }}
+  <li class="[ thumb ]" thumbnail>
+    <img class="hover-shadow lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abaco-aggregate.netlify.app/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
+  </li>
+  {{ end }}
+  <!-- </li>
+  <li class="[  thumb thumb--yt ]" thumbnail><img class="hover-shadow lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abaco-aggregate.netlify.app/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
+  </li> -->
+</ul>
+<!-- The Modal/Lightbox-->
+<div class="[ modal ] [ flex--middle ]" id="myModal"><span class="close cursor" id="close">×</span>
+  <div class="[ modal-content ]">
+    {{ range .Params.gallery }}
+    <div class="mySlides">
+      <figure>
+        <img src="{{ relURL }}" alt="{{ .alt }}" galleryImage>
+        {{ if .caption }}
+        <figcaption class="caption">{{ .caption }}</figcaption>
+        {{ end }}
+      </figure>
+    </div>
+    {{ end }}
+    <!-- <div class="[ mySlides mySlides--yt ]" galleryImage>
+      <div class="[ wrapper ]">
+        <iframe class="[ youtube ]" src="https://www.youtube.com/embed/hszFNFHSNSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="560" height="315"></iframe>
+      </div>
+      <p class="caption">This is a ction.</p>
+    </div> -->
+    <!-- Next/previous controls--><a class="[ directional ]" id="prev">❮</a><a class="[ directional ]" id="next">❯</a>
+  </div>
+</div>

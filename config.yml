@@ -4,3 +4,7 @@ title: Abaco Aggregate & Cement Ltd.
 
 upload_dir: static/uploads
 public_path: /uploads
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm

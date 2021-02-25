@@ -21,11 +21,6 @@
     <script>document.addEventListener("lazyriasmodifyoptions",function(i){i.detail.aspectratio=i.target.offsetWidth/i.target.offsetHeight});var prefix="https://res.cloudinary.com/abaco-aggregate/image/fetch/c_fill,g_auto,f_auto,w_{width}/";document.getElementById("exact")&&(prefix=prefix.replace(/\/$/,"")+",h_{height}/"),window.lazySizesConfig=window.lazySizesConfig||{},window.lazySizesConfig.rias=window.lazySizesConfig.rias||{prefix:prefix,absUrl:!0};</script>
     <script src="/scripts/app-{{ .Site.Data.assets.version }}.min.js" async></script>
     <!-- Site Scripts — END-->
-    <!-- No Script Styles – START-->
-    <noscript>
-      <style>.script {display: none}</style>
-    </noscript>
-    <!-- No Script Styles – START-->
     <!-- Site Favicons - START-->
     <meta name="theme-color" content="#ffffff">
     <link rel="icon" href="/favicon.svg">
@@ -41,7 +36,6 @@
         <a class="[ navbar__logo ] [ flex--middle ]" href="{{ if .IsHome }}/#banner{{else}}/{{ end }}">
           <img class="img" src="/uploads/abaco-aggregate-logo.svg" alt="Abaco Aggregate And Cement Ltd">
         </a>
-        
         <label class="[ navicon ] [ flex--middle ]" id="navicon" for="click"><strong id="menu-prompt">Open the menu</strong><span class="[ bar ]"></span></label>
         <nav class="[  navbar__menu nav ]">
           <ul class="[ menu ]">
@@ -54,17 +48,18 @@
     </header>
     <div class="anchor" id="banner"></div>
     
-    <main class="[ main ][ mt--7 ]" id="main">
-    {{ partial "hero" . }}
-    {{ partial "products" . }}
-    {{ partial "profile" . }}
-    {{ partial "contact" . }}
+    <main class="[ main ] {{ if .IsHome}}[ mt--7 ]{{ else }}[ x--wide mt--7 ]{{ end }}" id="main">
+      {{ block "main" . }}{{ end }}
     </main>
     <footer class="footer">
       <div class="footer__copy content content--wide flex--center--middle"><small>&copy; 2020 Abaco Aggregates And Cement Ltd. | All rights reserved.</small></div>
     </footer>
+    {{ if .IsHome }}
     <script src="/scripts/obscure-{{ .Site.Data.assets.version }}.min.js" defer></script>
     <script src="/scripts/validate-{{ .Site.Data.assets.version }}.min.js" defer></script>
     <script src="/scripts/slide-nav-{{ .Site.Data.assets.version }}.min.js"></script>
+    {{ else }}
+    <script src="/scripts/lightgallery-{{ .Site.Data.assets.version }}.min.js"></script>
+    {{ end }}
   </body>
 </html>
