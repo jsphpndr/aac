@@ -27,4 +27,4 @@ fields:
       label: Caption
 # Applicable Pages
 pages:
-- content/galleries.md
+- content/gallery.md
