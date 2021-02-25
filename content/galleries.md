@@ -1,9 +1,6 @@
 ---
-draft: true
-
 title: Gallery
 description: A description for now.
-
 gallery:
 - alt: A photo
   caption: A caption for the photo.
@@ -11,6 +8,5 @@ gallery:
 - alt: A photo
   caption: A caption for the photo.
   image: "/uploads/mixing-concrete.jpg"
-draft: true
 
 ---
