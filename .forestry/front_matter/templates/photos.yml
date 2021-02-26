@@ -43,6 +43,5 @@ fields:
   - type: text
     name: alt
     label: alt
-
 pages:
 - content/_index.md
