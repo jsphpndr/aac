@@ -17,7 +17,12 @@ products:
   - product: Cement
   - product: Asphalt Paving
 slider:
-- alt: ''
+- slide: "/uploads/abaco-aggregate-cement.jpg"
+  alt: Lookout tower
+- slide: "/uploads/mixing-concrete.jpg"
+  alt: Mixing concrete
+- alt: Concrete mixer operator
+  slide: "/uploads/concrete-mixer-operator.jpg"
 
 ---
 Founded in 2020, Abaco Aggregate and Cement Ltd. set out to be a leading construction company in Abaco.
