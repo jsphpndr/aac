@@ -1,5 +1,5 @@
 ---
-title: Abaco Aggregate & Cement Ltd. | Abaco Bahamas
+title: Abaco Aggregate & Cement Ltd.
 description: Working on it.
 hero:
   heading: Build Your World

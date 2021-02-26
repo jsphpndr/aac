@@ -10,9 +10,11 @@
       <div class="[ slider ]">
         <div class="[ slider__wrapper ]">
           <ul class="slider__track no-list-style">
+            
             {{ range .Params.slider }}
             <li class="[ slide ]">
-              <figure class="[ slide__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .slide }}" data-sizes="auto" alt="{{ .alt }}">
+              {{ $slide := imageConfig .slide }}
+              <figure class="[ slide__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .slide }}" data-sizes="auto" alt="{{ .alt }}" width="{{ $slide.Width }}" height="{{ $slide.Height }}">
               </figure>
             </li>
             {{ end }}
