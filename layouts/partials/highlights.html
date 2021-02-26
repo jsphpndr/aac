@@ -1,11 +1,19 @@
-<div class="[ highlight__gallery ] [ x--wide grid x2--md pt--5 ]">
-  <figure class="[ highlight__primary ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abacoaggregate.net/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
+{{ with .Site.GetPage "gallery" }}
+  <div class="[ highlight__gallery ] [ x--wide grid x2--md pt--5 ]">
+  
+  {{ with .Params.gallery }}
+  {{ $feature := index . 0 }}
+  <figure class="[ highlight__primary ]">
+    <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ $feature.image }}" data-sizes="auto" alt="{{ $feature.alt}}">
   </figure>
+  {{ end }}
   <div class="[ highlight__secondary ] [ grid ]">
-    {{ range .Params.gallery }}
+    {{ range first 4 (after 1 .Params.gallery) }}
     <figure class="[ secondary__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .image }}" data-sizes="auto" alt="{{ .alt }}">
     </figure>
     {{ end }}
     <div class="[ visit ] [ flex--end--bottom ]"><a href="/gallery">Visit the gallery</a></div>
   </div>
 </div>
+
+{{ end }}
