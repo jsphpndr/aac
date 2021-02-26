@@ -29,5 +29,3 @@ fields:
     label: youtube
     description: 'Want to share a video? Copy the alphanumerical text (Example: UWr2SJKQAZk)
       for the YouTube video.'
-pages:
-- content/gallery.md
