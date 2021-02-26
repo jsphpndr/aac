@@ -13,8 +13,7 @@
             
             {{ range .Params.slider }}
             <li class="[ slide ]">
-              {{ $slide := imageConfig .slide }}
-              <figure class="[ slide__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .slide }}" data-sizes="auto" alt="{{ .alt }}" width="{{ $slide.Width }}" height="{{ $slide.Height }}">
+              <figure class="[ slide__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .slide }}" data-sizes="auto" alt="{{ .alt }}">
               </figure>
             </li>
             {{ end }}
