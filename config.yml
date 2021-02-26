@@ -9,6 +9,7 @@ disableKinds:
   - taxonomy
   - taxonomyTerm
 
+fields:
 - type: field_group_list
   name: slider
   label: slider
