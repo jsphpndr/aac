@@ -2,14 +2,10 @@
   <figure class="[ highlight__primary ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abacoaggregate.net/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
   </figure>
   <div class="[ highlight__secondary ] [ grid ]">
-    <figure class="[ secondary__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abacoaggregate.net/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
+    {{ range .Params.gallery }}
+    <figure class="[ secondary__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ .image }}" data-sizes="auto" alt="{{ .alt }}">
     </figure>
-    <figure class="[ secondary__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abacoaggregate.net/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
-    </figure>
-    <figure class="[ secondary__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abacoaggregate.net/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
-    </figure>
-    <figure class="[ secondary__img ]"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="https://abacoaggregate.net/uploads/abaco-aggregate-cement.jpg" data-sizes="auto" alt="">
-    </figure>
+    {{ end }}
     <div class="[ visit ] [ flex--end--bottom ]"><a href="/gallery">Visit the gallery</a></div>
   </div>
 </div>

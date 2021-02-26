@@ -5,7 +5,10 @@ display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+- type: text
+  name: description
+  label: Description
 - type: field_group
   name: hero
   label: hero
@@ -15,33 +18,34 @@ fields:
     label: heading
   - type: textarea
     name: tagline
-    label: tagline
+    label: Tagline
 - type: field_group
   name: products
-  label: products
+  label: Products
   fields:
   - type: text
     name: heading
-    label: heading
+    label: Heading
   - type: textarea
     name: summary
-    label: summary
+    label: Summary
   - type: field_group_list
     name: products
-    label: products
+    label: Products
     fields:
     - type: text
       name: product
-      label: product
+      label: Product
 - type: field_group_list
   name: slider
-  label: slider
+  label: Slider
   fields:
   - type: file
     name: slide
-    label: slide
+    label: Slide
   - type: text
     name: alt
-    label: alt
+    label: Alt Text
+    description: Alternative text for images to assist search engines and the blind.
 pages:
 - content/_index.md

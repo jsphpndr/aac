@@ -2,10 +2,33 @@
 label: Gallery
 hide_body: true
 fields:
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: description
+  label: Description
 - name: gallery
-  type: image_gallery
-  config: {}
+  type: field_group_list
   label: Gallery
-  description: Choose an image for this field.
+  fields:
+  - type: file
+    name: image
+    label: Gallery Image
+    description: Choose an image for this field.
+  - type: text
+    name: alt
+    label: Alt Text
+    description: Alternative text for images to assist search engines and screen readers.
+  - type: text
+    name: caption
+    label: Caption
+    description: This visible text provides additional information about the image.
+  - type: text
+    name: youtube
+    label: youtube
+    description: "Want to share a video? Copy the alphanumerical text (Example: UWr2SJKQAZk) for the YouTube video."
+
+
 pages:
 - content/gallery.md
