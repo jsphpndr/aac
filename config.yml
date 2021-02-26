@@ -12,11 +12,11 @@ disableKinds:
 fields:
 - type: field_group_list
   name: slider
-  label: slider
+  label: Slider
   fields:
   - type: file
     name: slide
-    label: slide
+    label: Slide
   - type: text
     name: alt
     label: alt
