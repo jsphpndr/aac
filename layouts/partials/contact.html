@@ -13,7 +13,7 @@
       <form class="[ form--contact ]" id="form" name="contact" method="POST" data-netlify="true" netlify-honeypot="email" validate>
         <div class="[ form__field ]">
           <label class="[ form__label ]" for="name">Name <span class="red">*</span></label>
-          <input class="[ form__input ]" id="name" type="text" placeholder="Your Name" autocomplete="off" required>
+          <input class="[ form__input ]" id="name" name="name" type="text" placeholder="Your Name" autocomplete="off" required>
         </div>
         <div class="[ form__field ]">
           <label class="[ form__label ]" for="mailer">Email <span class="red">*</span></label>
@@ -21,7 +21,7 @@
         </div>
         <div class="[ form__field ]">
           <label class="[ form__label ]" for="message">Message <span class="red">*</span></label>
-          <textarea class="form__message" id="message" placeholder="Say hello..." autocomplete="off" required></textarea>
+          <textarea class="form__message" id="message" name="message" placeholder="Say hello..." autocomplete="off" required></textarea>
         </div>
         <div class="hidden" aria-hidden="true">
           <label for="email">This field is not for humans.</label>
