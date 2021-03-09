@@ -6,6 +6,10 @@ gallery:
   alt: ''
   caption: ''
   youtube: ''
+- image: "/uploads/cfp_9875.jpg"
+  alt: ''
+  caption: ''
+  youtube: ''
 - image: "/uploads/cfp_9899.jpg"
   alt: ''
   caption: ''
