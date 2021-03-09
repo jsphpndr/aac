@@ -2,6 +2,30 @@
 title: Gallery
 description: View recent projects from Abaco Aggregate & Cement Ltd.
 gallery:
+- image: "/uploads/cfp_9875.jpg"
+  alt: ''
+  caption: ''
+  youtube: ''
+- image: "/uploads/cfp_9899.jpg"
+  alt: ''
+  caption: ''
+  youtube: ''
+- image: "/uploads/cfp_9898.jpg"
+  alt: ''
+  caption: ''
+  youtube: ''
+- image: "/uploads/cfp_0004.jpg"
+  alt: ''
+  caption: ''
+  youtube: ''
+- image: "/uploads/cfp_9940.jpg"
+  alt: ''
+  caption: ''
+  youtube: ''
+- image: "/uploads/cfp_9868.jpg"
+  alt: ''
+  caption: ''
+  youtube: ''
 - image: "/uploads/cfp_9880.jpg"
   alt: ''
   caption: ''
