@@ -13,11 +13,11 @@
       <form class="[ form--contact ]" id="form" name="contact" method="POST" data-netlify="true" netlify-honeypot="email" validate>
         <div class="[ form__field ]">
           <label class="[ form__label ]" for="name">Name <span class="red">*</span></label>
-          <input class="[ form__input ]" id="name" type="text" name="name" placeholder="Your Name" autocomplete="off" required>
+          <input class="[ form__input ]" id="name" name="name" type="text" placeholder="Your Name" autocomplete="off" required>
         </div>
         <div class="[ form__field ]">
           <label class="[ form__label ]" for="mailer">Email <span class="red">*</span></label>
-          <input class="[ form__input ]" id="mailer" type="email" name="mailer" placeholder="your@email.com" autocomplete="off" required>
+          <input class="[ form__input ]" id="mailer" name="mailer" type="email" placeholder="your@email.com" autocomplete="off" required>
         </div>
         <div class="[ form__field ]">
           <label class="[ form__label ]" for="message">Message <span class="red">*</span></label>
@@ -27,8 +27,8 @@
           <label for="email">This field is not for humans.</label>
           <input id="email" type="email" name="email" autocomplete="off">
         </div>
-        <label for="lead-source"><input id="lead-source" type="hidden" name="lead-source" value="Abaco Aggregate Website"></label>
-        <label for="lead-url"><input id="lead-url" type="hidden" name="lead-url" value="https://abacoaggregate.net"></label>
+        <input id="lead-source" type="hidden" name="lead-source" value="Abaco Aggregate Website">
+        <input id="lead-url" type="hidden" name="lead-url" value="https://abacoaggregate.net">
         <div class="[ form__submit ]">
           <input class="[ btn btn--black btn--solid--lg ]" id="submit" type="submit" name="submit" value="Send">
         </div>
