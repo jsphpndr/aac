@@ -16,6 +16,7 @@ products:
   - product: Fill
   - product: Cement
   - product: Asphalt Paving
+  - product: Waste Management
 slider:
 - slide: "/uploads/abaco-aggregate-cement.jpg"
   alt: Lookout tower
